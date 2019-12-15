@@ -1,10 +1,10 @@
 package nl.danman85.gang.of.four.patterns.visitor;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 /**
  * Private_Tests
@@ -13,12 +13,12 @@ public class Private_Tests {
 
     private Private _private;
 
-    @Before
+    @BeforeEach
     public void setupTest() {
         this._private = new Private();
     }
 
-    @After
+    @AfterEach
     public void tearDownTest() {
         this._private = null;
     }
