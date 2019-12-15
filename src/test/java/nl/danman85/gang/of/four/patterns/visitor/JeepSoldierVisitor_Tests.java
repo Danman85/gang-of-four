@@ -1,11 +1,11 @@
 package nl.danman85.gang.of.four.patterns.visitor;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 /**
  * JeepSoldierVisitor_Tests
@@ -14,12 +14,12 @@ public class JeepSoldierVisitor_Tests {
 
     private JeepSoldierVisitor jeepSoldierVisitor;
 
-    @Before
+    @BeforeEach
     public void setupTest() {
         this.jeepSoldierVisitor = new JeepSoldierVisitor();
     }
 
-    @After
+    @AfterEach
     public void tearDownTest() {
         this.jeepSoldierVisitor = null;
     }
