@@ -1,4 +1,4 @@
-package nl.danman85.gang.of.four.patterns.factorymethod;
+package nl.danman85.gang.of.four.patterns.factorymethod.product;
 
 /**
  * FrietjeType
