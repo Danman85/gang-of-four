@@ -9,6 +9,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;
 
 import nl.danman85.gang.of.four.patterns.factorymethod.product.Frietje;
+import nl.danman85.gang.of.four.patterns.factorymethod.product.FrietjeType;
 
 /**
  * FrietjeFactory_Tests

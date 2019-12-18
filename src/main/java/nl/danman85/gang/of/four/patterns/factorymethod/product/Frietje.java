@@ -2,8 +2,6 @@ package nl.danman85.gang.of.four.patterns.factorymethod.product;
 
 import javax.annotation.Nonnull;
 
-import nl.danman85.gang.of.four.patterns.factorymethod.FrietjeType;
-
 /**
  * Frietje
  */

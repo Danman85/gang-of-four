@@ -1,7 +1,5 @@
 package nl.danman85.gang.of.four.patterns.factorymethod.product;
 
-import nl.danman85.gang.of.four.patterns.factorymethod.FrietjeType;
-
 /**
  * FrietjeMet
  */

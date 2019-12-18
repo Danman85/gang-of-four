@@ -6,6 +6,7 @@ import nl.danman85.gang.of.four.patterns.factorymethod.product.Frietje;
 import nl.danman85.gang.of.four.patterns.factorymethod.product.FrietjeMet;
 import nl.danman85.gang.of.four.patterns.factorymethod.product.FrietjeOorlog;
 import nl.danman85.gang.of.four.patterns.factorymethod.product.FrietjeSpeciaal;
+import nl.danman85.gang.of.four.patterns.factorymethod.product.FrietjeType;
 
 /**
  * FrietjeFactory
